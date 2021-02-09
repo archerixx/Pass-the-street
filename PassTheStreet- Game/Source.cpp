@@ -12,34 +12,6 @@ void gameLogic(vector<vector<int>>&, int, int, int, int, int, bool&, bool&);
 
 int main()
 {
-	/*
-int carA = rand() % 20;
-int carB = rand() % 20;
-int carC = rand() % 20;
-int carD = rand() % 20;
-int carE = rand() % 20;
-int carF = rand() % 20;
-*/
-	/*
-int cars[maxH];
-for (int i = 0; i < maxH; i++)
-{
-	cars[i] = rand() % 20;
-}
-*/
-	/*
-int cars[maxH][maxW];
-for (int i = 0; i < maxH; i++)
-{
-	//int temp = maxW / (maxW/10);
-	for (int j = 0; j < maxW; j++)
-	{
-		cars[i][j] = rand() % width;
-	}
-
-}
-*/
-
 	srand(time(NULL));
 
 	int setH, setW, setMaxC, speed;
