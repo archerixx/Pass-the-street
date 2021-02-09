@@ -85,7 +85,7 @@ int main()
 	} while (startAgain != 'n');
 }
 
-void gui(vector<vector<int>> cars, int height, int width, int x, int y, int maxC)  //int &carA, int& carB, int &carC, int &carD, int &carE, int&carF)
+void gui(vector<vector<int>> cars, int height, int width, int x, int y, int maxC)  
 {
 	system("cls");
 	for (int i = 0; i <=height; i++)
