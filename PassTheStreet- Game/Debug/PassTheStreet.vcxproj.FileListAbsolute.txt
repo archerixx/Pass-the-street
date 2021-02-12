@@ -1,2 +1,4 @@
 C:\Users\tursi\source\repos\PassTheStreet- Game\Debug\PassTheStreet- Game.exe
 C:\Users\tursi\source\repos\PassTheStreet- Game\Debug\PassTheStreet- Game.pdb
+C:\Users\tursi\OneDrive\Documents\GitHub\Pass-the-street\PassTheStreet- Game\Debug\PassTheStreet- Game.exe
+C:\Users\tursi\OneDrive\Documents\GitHub\Pass-the-street\PassTheStreet- Game\Debug\PassTheStreet- Game.pdb
