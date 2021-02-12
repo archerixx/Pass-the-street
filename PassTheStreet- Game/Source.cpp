@@ -15,9 +15,18 @@ inline void movement(int&, int&);
 int main()
 {
 	srand(time(NULL));
+<<<<<<< Updated upstream
 
 
 	char startAgain('y');
+=======
+<<<<<<< HEAD
+
+
+	char startAgain('y');
+=======
+>>>>>>> a081cb365ca911fcd5278fd1941b413994f2d50e
+>>>>>>> Stashed changes
 
 	int setH, setW, setMaxC, speed;
 	do
@@ -95,6 +104,10 @@ void gameSetup(int& setH, int& setW, int& setMaxC, int& speed)
 	} while (difficulty < 0 || difficulty>5);
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 void carsPositionSetup(vector<vector<int>>& cars, const int width, const int maxC)
 {
 	for (int i = 1; i < cars.size(); i++)
@@ -118,6 +131,12 @@ void carsPositionSetup(vector<vector<int>>& cars, const int width, const int max
 }
 
 void gui(const vector<vector<int>>& cars, const int width, const int maxC, int& x, int& y)
+<<<<<<< Updated upstream
+=======
+=======
+void gui(vector<vector<int>> cars, int height, int width, int x, int y, int maxC)  
+>>>>>>> a081cb365ca911fcd5278fd1941b413994f2d50e
+>>>>>>> Stashed changes
 {
 	system("cls");
 	for (int i = 0; i <= cars.size(); i++)
@@ -271,6 +290,10 @@ void gameLogic(vector<vector<int>>& cars, const int width, const int maxC, int& 
 		}
 	}
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 
 inline void movement(int& x, int& y)
 {
@@ -295,3 +318,8 @@ inline void movement(int& x, int& y)
 		}
 	}
 }
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> a081cb365ca911fcd5278fd1941b413994f2d50e
+>>>>>>> Stashed changes
